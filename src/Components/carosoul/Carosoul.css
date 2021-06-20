@@ -1,0 +1,43 @@
+.carosoul{
+    height: 300px;
+    background-color:black;
+    display: inline-flex;
+    padding: 20px;
+}
+.row{
+    overflow-x: scroll;
+    
+    /* overflow-y:hidden ; */
+   
+}
+
+.car_image{
+width:200px;
+height: 300px;
+overflow-x: scroll;
+overflow-y:hidden ;
+
+}
+
+.row::-webkit-scrollbar{
+    display: none;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+  }
+  
+  .item img {
+    display: block;
+    max-width: 100%;
+  }
+
+

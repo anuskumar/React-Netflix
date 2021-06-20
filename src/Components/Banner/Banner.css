@@ -1,0 +1,45 @@
+.Banner{
+    height: 600px;    
+    /* background-position: center
+    ; */
+    background-size: cover;
+}
+.main_heading{
+    color: blanchedalmond;
+    padding-top: 200px;
+    padding-left: 100px;
+    margin: auto;
+    float: left;
+
+
+}
+.email_enter{
+
+    
+    float: left;
+    margin: auto;
+    width: 500px;
+    height: 40px;
+}
+
+.search_btn{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 16px;
+    border-color: transparent;
+    /* margin-top: 300px; */
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.textarea{
+
+    margin: 0 auto;
+    align-self: auto;
+    margin-left: 100px;
+}
