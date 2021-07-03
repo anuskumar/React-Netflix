@@ -4,18 +4,21 @@ import axios from '../Axios'
 import {useEffect,useState} from 'react'
 import {Api_Key,Base_Url,ImageUrl} from '../constants'
 
-function Banner() {
-    const [banner, setBanner] = useState([])
+ function Banner() {
+      const [banner, setBanner] = useState([])
  
     useEffect(() => {
 
         axios.get(`trending/all/day?api_key=${Api_Key}`).then((response)=>{
-            console.log(response.data.results[0])
+            // console.log(response.data.results[0])
             setBanner(response.data.results[0])
 
         })
         
     }, [])
+
+    
+    
 
     return (
         <div className="Banner" style={{backgroundImage:`url(${banner ? ImageUrl+banner.backdrop_path :""})`}}>
@@ -35,3 +38,4 @@ function Banner() {
 }
 
 export default Banner
+

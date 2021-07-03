@@ -33,6 +33,7 @@ overflow-y:hidden ;
     position: relative;
     display: block;
     flex: 1 1 0px;
+    width:100%;
   }
   
   .item img {
